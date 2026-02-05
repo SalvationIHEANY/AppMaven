@@ -17,6 +17,7 @@ class HeroeTest {
 
         // Assert
         assertNotNull(heroe.getNombreCompleto(), "El nombre no debería ser nulo");
+        //Se ha corregido
         assertFalse(heroe.getNombreCompleto().isEmpty(), "El nombre no debería estar vacío");
     }
 
